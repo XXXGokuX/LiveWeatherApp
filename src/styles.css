@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  
+}
+
+.App {
+  
+  padding: 35px;
+  background: rgb(148, 225, 241);
+  background: linear-gradient(
+    0deg,
+    rgba(148, 225, 241, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+
+}
+
+
+
+.head-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.head-name,
+.github-icon a {
+  color: #396d8a;
+}
+
+.head-name {
+  font-size: medium;
+}
+
+.github-icon {
+  font-size: xx-large;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: white;
+  padding: 10px 14px;
+  border-radius: 50px;
+}
+.search-input {
+  flex: 1;
+}
+
+.search-input input {
+  width: 100%;
+  border: none;
+  outline: none;
+  color:#396D8A;
+  font-size: medium;
+}
+
+.search-icon,
+.location-icon {
+  color: #396d8a;
+  font-size: 20px;
+}
+
+.search-icon,
+.location-icon {
+  position: relative;
+  top: 3px;
+}
+.current-box,.forecast-box
+{
+  background-color:white;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  padding:35px 25px 30px 25px; 
+  border-radius: 20px;
+}
+.head
+{
+  color:gray;
+  font-size: small;
+  margin-bottom: 25px;
+  margin-left: 120px;
+}
+
+.current-city-name
+{
+  color: #6680A9;
+}
+
+.current-weather-name
+{
+  color:#9AADC4;
+  font-size: 14px;
+}
+
+.current-weather-info
+{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 150px;
+  color: #396D8A;
+  
+}
+
+.current-weather
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+.feels-like-text
+{
+  color: dimgray;
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.arrow
+{
+  color: gray;
+  font-size: larger;
+}
+
+.temp-up,.temp-down
+{
+  color: #396D8A;
+  font-weight: bold;
+  font-size: large;
+}
+
+.feels-like-temp
+{
+  display: flex;
+  gap: 32px;
+  margin-bottom: 16px;
+}
+
+
+td
+{
+  padding-right: 25px;
+  padding-bottom: 8px;
+}
+
+.ticon
+{ 
+  font-size: x-large;
+}
+
+.ticon,.key
+{
+ color: gray;
+ font-weight: bold;
+}
+
+.value
+{
+  color: #396D8A;
+  font-weight: bold;
+}
+
+.all-forecast
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.forecast-box .head
+{
+  margin-left: 0px;
+}
+
+.fday,.fstatus
+{
+  color: #6680A9;
+  font-weight: bold;
+  text-align: center;
+  margin: 6px 0px;
+}
+
+.ftemp
+{
+  color: gray;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 3px;
+}
